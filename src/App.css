@@ -39,7 +39,7 @@ a {
 }
 
 .App {
-  background-image: url('./assets/lines2.png');
+  background-image: url('./assets/lines.png');
   animation: static 3s steps(5, end) infinite;
   z-index: 999;
   background-size: .5%;
