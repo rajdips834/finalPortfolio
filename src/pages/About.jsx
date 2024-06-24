@@ -41,11 +41,7 @@ const About = () => (
     <div className="about-me">
       <h2 className="title about-title">aBOUT mE</h2>
       <p className="paragraph about-para">
-        Developer by day, Musican by night. I'm passionate about crafting
-        exceptional digital experiences. I bring ideas to life in the virtual
-        realm with a keyboard as my paintbrush and lines of code as my canvas.
-        Let's join forces and bring your digital dreams to fruition. Get in
-        touch, and let's embark on this exciting journey together!
+        Developer by day, Musican by night.
       </p>
       <button className="hire-me">
         <a

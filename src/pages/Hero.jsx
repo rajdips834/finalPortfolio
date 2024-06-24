@@ -8,19 +8,34 @@ const Hero = () => (
   <div className="hero" id="home">
     <div className="hero-overlay">
       <div className="description">
-        <h2 className="title">hELLO! i aM Rajdip</h2>
+        <h2 className="title">
+          <div className="typewriter-container">
+            <Typewriter
+              options={{
+                strings: [""],
+                autoStart: true,
+                loop: false,
+              }}
+            />
+            <Typewriter
+              options={{
+                strings: ["developer", "musician", "designer", "streamer"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
+        </h2>
 
         <h3 className="tagline">
-          I do Fullstack Dev, Ui/Ux, Music and stream on Twitch for fun! And
-          Yes, you can call me Raj.
+          I do Fullstack Dev, Ui/Ux, Music and stream on Twitch for fun!
         </h3>
 
         <p className="paragraph">
           I'm passionate about crafting exceptional digital experiences. I bring
           ideas to life in the virtual realm with a keyboard as my paintbrush
           and lines of code as my canvas. Let's join forces and bring your
-          digital dreams to fruition. Get in touch, and let's embark on this
-          exciting journey together!
+          digital dreams to fruition.
         </p>
         <div className="hero-btns">
           <button className="hire-me">
