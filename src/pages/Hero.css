@@ -20,7 +20,7 @@
 }
 .typewriter-container {
   display: flex;
-  gap: 10px; /* Adjust the gap as needed */
+  gap: 0px; /* Adjust the gap as needed */
   align-items: center; /* Aligns items vertically centered */
 }
 
