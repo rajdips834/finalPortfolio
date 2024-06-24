@@ -36,15 +36,14 @@ const Hero = () => (
           </div>
         </h2>
 
-        <h3 className="tagline">
-          I do Fullstack Dev, Ui/Ux, Music and stream on Twitch for fun!
-        </h3>
+        <h3 className="tagline">I do Fullstack Dev, Ui/Ux and Music.</h3>
 
         <p className="paragraph">
-          I'm passionate about crafting exceptional digital experiences. I bring
-          ideas to life in the virtual realm with a keyboard as my paintbrush
-          and lines of code as my canvas. Let's join forces and bring your
-          digital dreams to fruition.
+          I'm a Fullstack developer with a passion for writing code and creating
+          music. When I'm not crafting web applications, you'll find me
+          strumming a guitar or tickling the ivories. My love for harmonizing
+          different elements extends from my development projects to my musical
+          pursuits.
         </p>
         <div className="hero-btns">
           <button className="hire-me">
@@ -53,7 +52,7 @@ const Hero = () => (
               target="_blank"
               rel="noreferrer"
             >
-              Get My CV
+              Dont Click this
             </a>
           </button>
           <button className="lets-talk">

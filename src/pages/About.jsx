@@ -39,7 +39,7 @@ import storybook from "../assets/storybook.png";
 const About = () => (
   <section className="about" id="about">
     <div className="about-me">
-      <h2 className="title about-title">aBOUT mE</h2>
+      <h2 className="title about-title">About Me</h2>
       <p className="paragraph about-para">
         Developer by day, Musican by night.
       </p>
@@ -49,7 +49,7 @@ const About = () => (
           target="_blank"
           rel="noreferrer"
         >
-          GET MY CV
+          Absolutely Dont Click this
         </a>
       </button>
     </div>
