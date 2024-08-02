@@ -45,7 +45,7 @@ const About = () => (
       </p>
       <button className="hire-me">
         <a
-          href="https://drive.google.com/file/d/1fGXAjKkaYFEywm8UP8xKyDB-AQ-mYIJf/view?usp=sharing"
+          href="https://drive.google.com/file/d/19Yy1-8HSAXtAQpHnULK7y6oSWcqqAGVb/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
