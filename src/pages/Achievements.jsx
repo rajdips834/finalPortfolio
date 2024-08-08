@@ -10,7 +10,7 @@ const Achievements = () => {
       project_name: "Morsify - A Morse Code generator and translator",
       description:
         "A pet project of mine where i learned morse code and implemented a morse code generator and translator using ReactJS. The project is hosted on Netlify and the source code is available on Github.",
-      tech_stack: ["ReactJS", "Netlify", "Github"],
+      tech_stack: ["ReactJS", "Github"],
       source_link: "",
     },
     {
@@ -18,28 +18,18 @@ const Achievements = () => {
       project_name: "The website you are currently viewing",
       description:
         "This website was built during my 2nd year of university. It is a personal portfolio website built using ReactJS and hosted on Netlify. The source code is available on Github.",
-      tech_stack: ["ReactJS", "Netlify", "Github"],
+      tech_stack: ["ReactJS", "Github"],
       source_link: "",
-    },
-
-    {
-      image_url: "https://imgur.com/gpope2A",
-      project_name:
-        "Praani - A pet project to help animal shelters and pet owners",
-      description:
-        "Praani is a pet project of mine where I learned about the challenges faced by animal shelters and pet owners. I built a platform to help animal shelters and pet owners connect and help each other.",
-      tech_stack: ["ReactJS", "Firebase", "Github"],
-      source_link: "https://github.com/rajdips834/praani",
     },
 
     {
       image_url: "https://imgur.com/hkTayMd",
       project_name:
-        "Healify - A platform to help people streamline medical resources city wide ",
+        "Watchlist - A pet project to help me keep track of movies i wanna watch",
       description:
-        "Healify is a pet project of mine where I learned about the challenges faced by people in finding medical resources. I built a platform to help people streamline medical resources city wide.",
-      tech_stack: ["Hackathon", "firebase", "leaflet", "Github"],
-      source_link: "https://github.com/rajdips834/Healify",
+        "Watchlist is something that i decided to make after i found myself forgetting the names of movies i wanted to watch.",
+      tech_stack: ["ReactJS", "Firebase", "Github"],
+      source_link: "watchlist-sand.vercel.app/",
     },
   ];
 
