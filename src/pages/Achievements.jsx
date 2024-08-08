@@ -31,6 +31,14 @@ const Achievements = () => {
       tech_stack: ["ReactJS", "Firebase", "Github"],
       source_link: "https://watchlist-sand.vercel.app/",
     },
+    {
+      image_url: "",
+      project_name:
+        "Expense Calculator - A simple expense calculator built using ReactJS",
+      description: "Couldn't stop overspending",
+      tech_stack: ["ReactJS", "Firebase", "Github"],
+      source_link: "https://expense-calc-iota.vercel.app/",
+    },
   ];
 
   return (
