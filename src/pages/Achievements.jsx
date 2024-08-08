@@ -29,7 +29,7 @@ const Achievements = () => {
       description:
         "Watchlist is something that i decided to make after i found myself forgetting the names of movies i wanted to watch.",
       tech_stack: ["ReactJS", "Firebase", "Github"],
-      source_link: "watchlist-sand.vercel.app/",
+      source_link: "https://watchlist-sand.vercel.app/",
     },
   ];
 
