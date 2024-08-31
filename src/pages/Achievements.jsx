@@ -14,12 +14,12 @@ const Achievements = () => {
       source_link: "",
     },
     {
-      image_url: "https://imgur.com/LUvmbFl",
-      project_name: "The website you are currently viewing",
+      image_url: "",
+      project_name: "A food ordering app built using ReactJS",
       description:
-        "This website was built during my 2nd year of university. It is a personal portfolio website built using ReactJS and hosted on Netlify. The source code is available on Github.",
-      tech_stack: ["ReactJS", "Github"],
-      source_link: "",
+        "This website was built during my 3rd year of university. This is a food ordering system made using ReactJS and hosted on Netlify. The source code is available on Github.",
+      tech_stack: ["ReactJS", "Firebase", "Github"],
+      source_link: "https://foodify-rajdip.vercel.app/",
     },
 
     {
