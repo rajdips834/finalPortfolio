@@ -6,16 +6,23 @@ const Achievements = () => {
   // Manually define the project data
   const projectData = [
     {
-      image_url: "https://imgur.com/gpope2A",
-      project_name: "Morsify - A Morse Code generator and translator",
+      project_name: "Conversicats",
       description:
-        "A pet project of mine where i learned morse code and implemented a morse code generator and translator using ReactJS. The project is hosted on Netlify and the source code is available on Github.",
-      tech_stack: ["ReactJS", "Github"],
-      source_link: "",
+        "A chat application built using ReactJS,NodeJS,ExpressJS and Socket.io. It allows users to create rooms and chat with each other in real-time. The source code is available on Github.",
+      tech_stack: ["ReactJS", "Github", "NodeJS", "ExpressJS", "Socket.io"],
+      source_link:
+        "https://convers-git-main-rajdips834s-projects.vercel.app/login",
+    },
+    {
+      project_name: "Rajdip's Shell",
+      description:
+        "A Javascript-based shell that allows users to execute commands and navigate the file system. It is a simple implementation of a shell that can be used to run commands and scripts.",
+      tech_stack: ["Javascript", "Computer Science", "Operating System"],
+      source_link: "https://github.com/rajdips834/rajdip-shell",
     },
     {
       image_url: "",
-      project_name: "A food ordering app built using ReactJS",
+      project_name: "Foodify",
       description:
         "This website was built during my 3rd year of university. This is a food ordering system made using ReactJS and hosted on Netlify. The source code is available on Github.",
       tech_stack: ["ReactJS", "Firebase", "Github"],
@@ -23,18 +30,8 @@ const Achievements = () => {
     },
 
     {
-      image_url: "https://imgur.com/hkTayMd",
-      project_name:
-        "Watchlist - A pet project to help me keep track of movies i wanna watch",
-      description:
-        "Watchlist is something that i decided to make after i found myself forgetting the names of movies i wanted to watch.",
-      tech_stack: ["ReactJS", "Firebase", "Github"],
-      source_link: "https://watchlist-sand.vercel.app/",
-    },
-    {
       image_url: "",
-      project_name:
-        "Expense Calculator - A simple expense calculator built using ReactJS",
+      project_name: "ExpenseCalc",
       description: "Couldn't stop overspending",
       tech_stack: ["ReactJS", "Firebase", "Github"],
       source_link: "https://expense-calc-iota.vercel.app/",

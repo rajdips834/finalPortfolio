@@ -40,12 +40,34 @@ a {
 
 .App {
   background-image: url('./assets/lines.png');
+  background-size: 0.5%;
   animation: static 3s steps(5, end) infinite;
   z-index: 999;
-  background-size: .5%;
 }
 
+/* Background animation keyframes */
+@keyframes static {
+  0% {
+    background-position: 0% 0%;
+  }
+  20% {
+    background-position: 25% 15%;
+  }
+  40% {
+    background-position: 50% 69%;
+  }
+  60% {
+    background-position: 33% 25%;
+  }
+  80% {
+    background-position: 72% 4%;
+  }
+  100% {
+    background-position: 80% 91%;
+  }
+}
 
+/* Footer style */
 footer h3 {
   text-align: center;
   color: white;
@@ -54,43 +76,35 @@ footer h3 {
   letter-spacing: 0.1rem;
 }
 
-
-@keyframes static {
-  0% {
-    background-position: 0% 0%;
-  }
-
-  20% {
-    background-position: 25% 15%;
-  }
-
-  40% {
-    background-position: 50% 69%;
-  }
-
-  60% {
-    background-position: 33% 25%;
-  }
-
-  80% {
-    background-position: 72% 4%;
-  }
-
-  100% {
-    background-position: 80% 91%;
-  }
-}
-
-
-
-
-
-
+/* Adjust button size for high DPI screens */
 @media screen and (min-resolution: 100dpi) {
   button {
     font-size: 1rem;
   }
-
 }
 
+/* 🔧 Fix background animation for smaller screens */
+@media screen and (max-width: 768px) {
+  .App {
+    background-size: 5%; /* Less intense pattern on small screens */
+    animation: staticMobile 4s steps(3, end) infinite;
+  }
 
+  @keyframes staticMobile {
+    0% {
+      background-position: 0% 0%;
+    }
+    25% {
+      background-position: 20% 10%;
+    }
+    50% {
+      background-position: 40% 40%;
+    }
+    75% {
+      background-position: 60% 20%;
+    }
+    100% {
+      background-position: 80% 80%;
+    }
+  }
+}

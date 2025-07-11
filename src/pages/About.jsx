@@ -240,19 +240,6 @@ const About = () => (
           <p>Zoom</p>
         </div>
       </div>
-      <h2 className="skill-title">Soft Skills</h2>
-      <div className="skills">
-        <p className="soft-skill">Critical Thinking</p>
-        <p className="soft-skill">Communication</p>
-        <p className="soft-skill">Teamwork</p>
-        <p className="soft-skill">Collaboration</p>
-        <p className="soft-skill">Creativity</p>
-
-        <p className="soft-skill">Leadership</p>
-        <p className="soft-skill">Problem Solving</p>
-        <p className="soft-skill">Time Management</p>
-        <p className="soft-skill">Adaptability</p>
-      </div>
     </div>
   </section>
 );

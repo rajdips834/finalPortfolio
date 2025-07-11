@@ -54,12 +54,13 @@
 .paragraph {
   font-size: 1.2rem;
   color: white;
-  opacity: 0.8;
+  
   font-weight: normal;
   line-height: 2.2rem;
   margin: 2rem 0;
   text-align: justify;
   width: 85%;
+  
 }
 
 .hero-btns {
