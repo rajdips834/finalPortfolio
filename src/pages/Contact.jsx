@@ -35,9 +35,6 @@ const Contact = () => {
     <div className="contact" id="contact">
       <div className="footer-left">
         <h1>Wanna Build something cool? </h1>
-        <button className="hire-me" style={{ marginLeft: "20%" }}>
-          <a href="mailto:rajdips834@gmail.com">Hit me up</a>
-        </button>
       </div>
       <div className="footer-right">
         <h3>I'M ALWAYS INTERESTED ABOUT</h3>
@@ -87,6 +84,26 @@ const Contact = () => {
           >
             <i className="fa-brands fa-instagram" />
           </a>
+          <button
+            className="hire-me"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "12px 24px",
+              maxHeight: "60px",
+
+              border: "none",
+              borderRadius: "8px",
+              fontSize: "16px",
+              fontWeight: "bold",
+              cursor: "pointer",
+              textDecoration: "none",
+              transition: "background-color 0.3s ease",
+            }}
+          >
+            <a href="mailto:rajdips834@gmail.com">Hit me up</a>
+          </button>
         </div>
 
         <hr />

@@ -35,7 +35,7 @@ const Experience = () => {
   ];
 
   return (
-    <div className="experience-timeline" id="achievements">
+    <div className="experience-timeline" id="Experience">
       <h1 className="title achievement-title">Experiences</h1>
       <p className="projects-para">
         Over the years, I’ve had the opportunity to work on diverse projects

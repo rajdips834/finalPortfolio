@@ -39,13 +39,13 @@ a {
 }
 
 .App {
-  background-image: url('./assets/lines.png');
-  background-size: 0.5%;
-  animation: static 3s steps(5, end) infinite;
-  z-index: 999;
+  background-image: url('../src/assets/bgImage.svg');
+ background-repeat:repeat-y;
+  background-size:contain;
+
 }
 
-/* Background animation keyframes */
+/* Background animation keyframes
 @keyframes static {
   0% {
     background-position: 0% 0%;
@@ -65,7 +65,7 @@ a {
   100% {
     background-position: 80% 91%;
   }
-}
+} */
 
 /* Footer style */
 footer h3 {
@@ -83,28 +83,4 @@ footer h3 {
   }
 }
 
-/* 🔧 Fix background animation for smaller screens */
-@media screen and (max-width: 768px) {
-  .App {
-    background-size: 5%; /* Less intense pattern on small screens */
-    animation: staticMobile 4s steps(3, end) infinite;
-  }
-
-  @keyframes staticMobile {
-    0% {
-      background-position: 0% 0%;
-    }
-    25% {
-      background-position: 20% 10%;
-    }
-    50% {
-      background-position: 40% 40%;
-    }
-    75% {
-      background-position: 60% 20%;
-    }
-    100% {
-      background-position: 80% 80%;
-    }
-  }
-}
+/*  */

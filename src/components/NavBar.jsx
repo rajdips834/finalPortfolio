@@ -101,6 +101,18 @@ const NavBar = () => {
               Projects
             </Link>
           </li>
+          <li>
+            <Link
+              spy
+              smooth
+              offset={50}
+              duration={500}
+              onClick={toggleMenu}
+              to="Experience"
+            >
+              Experience
+            </Link>
+          </li>
 
           <li>
             <li>
