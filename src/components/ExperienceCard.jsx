@@ -6,6 +6,7 @@ import bluebricks from "../assets/BlueBricks.png";
 import renderbit from "../assets/Renderbit.png";
 import techRavens from "../assets/TechRavens.png";
 import gdsc from "../assets/GDSC.png";
+import dyyota from "../assets/dyyota_logo.jpeg"
 
 // Map each company to its logo
 const imageMap = {
@@ -13,6 +14,7 @@ const imageMap = {
   BlueBricks: bluebricks,
   Renderbit: renderbit,
   "The Tech Ravens": techRavens,
+  Dyyota:dyyota
 };
 
 const ExperienceCard = ({ company, title }) => {
