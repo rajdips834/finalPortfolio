@@ -32,6 +32,11 @@ const Experience = () => {
       description:
         "• Built an extensive organisation in my college, with over 1000+ members.\n• Organised multiple events and workshops to help students learn new skills.\n• Collaborated with other organisations to host hackathons and coding competitions.",
     },
+    {
+      Company: "Dyyota",
+      title: "Full-Stack developer",
+        description: "Built an AI website generator"
+    }
   ];
 
   return (
