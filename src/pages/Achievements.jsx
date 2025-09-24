@@ -14,6 +14,11 @@ const Achievements = () => {
         "https://convers-git-main-rajdips834s-projects.vercel.app/login",
     },
     {
+      project_name: "Vidhi.Ai",
+      description:"An LLM model trained on the constitution of india",
+      tech_stack:["Python","FastAPI", "Ollama"],
+      source_link:"https://github.com/rajdips834/vidhi"
+    {
       project_name: "Rajdip's Shell",
       description:
         "A Javascript-based shell that allows users to execute commands and navigate the file system. It is a simple implementation of a shell that can be used to run commands and scripts.",
