@@ -15,9 +15,10 @@ const Achievements = () => {
     },
     {
       project_name: "Vidhi.Ai",
-      description:"An LLM model trained on the constitution of india",
-      tech_stack:["Python","FastAPI", "Ollama"],
-      source_link:"https://github.com/rajdips834/vidhi"
+      description: "An LLM model trained on the constitution of india",
+      tech_stack: ["Python", "FastAPI", "Ollama"],
+      source_link: "https://github.com/rajdips834/vidhi",
+    },
     {
       project_name: "Rajdip's Shell",
       description:
