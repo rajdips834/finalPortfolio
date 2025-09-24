@@ -44,8 +44,8 @@
   align-items: flex-start;
 }
 
-/* 🔮 Frosted Glass Project Card */
-.timeline-item .project-card {
+/* 🔮 Frosted Glass experience Card */
+.timeline-item .experience-card {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
@@ -63,13 +63,12 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.timeline-item .project-card:hover {
+.timeline-item .experience-card:hover {
   transform: scale(1.02);
   box-shadow: 0 0 25px rgba(149, 7, 64, 0.3), 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
-.project-card img {
-  width: 100px;
+.experience-card img {
   height: 100px;
   object-fit: contain;
   margin-bottom: 1rem;
@@ -77,13 +76,13 @@
   padding: 0.5rem;
 }
 
-.project-card h3 {
+.experience-card h3 {
   font-size: 1.3rem;
   margin: 0.3rem 0;
   color: #ffffff;
 }
 
-.project-card .designation {
+.experience-card .designation {
   font-size: 0.95rem;
   color: #bbbbbb;
   font-weight: 400;
@@ -139,7 +138,7 @@
     left: 0 !important;
   }
 
-  .timeline-item .project-card {
+  .timeline-item .experience-card {
     max-width: 90%;
     margin-left: 0;
   }
@@ -152,16 +151,16 @@
     left: 10px;
   }
 
-  .project-card img {
+  .experience-card img {
     width: 80px;
     height: 80px;
   }
 
-  .project-card h3 {
+  .experience-card h3 {
     font-size: 1.1rem;
   }
 
-  .project-card .designation {
+  .experience-card .designation {
     font-size: 0.9rem;
   }
 }
@@ -171,21 +170,18 @@
     left: 8px;
   }
 
-  .timeline-item .project-card {
+  .timeline-item .experience-card {
     padding: 1rem;
     max-width: 95%;
   }
 
-  .project-card img {
-    width: 65px;
-    height: 65px;
-  }
+  
 
-  .project-card h3 {
+  .experience-card h3 {
     font-size: 1rem;
   }
 
-  .project-card .designation {
+  .experience-card .designation {
     font-size: 0.85rem;
   }
 

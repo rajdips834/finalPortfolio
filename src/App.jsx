@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Achievements from "./pages/Achievements";
 import Experience from "./pages/Experience";
+import MediumArticles from "./pages/MediumArticles";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <About />
         <Experience />
         <Achievements />
+        <MediumArticles />
         <Contact />
       </div>
     </div>

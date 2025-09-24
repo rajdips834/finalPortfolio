@@ -95,7 +95,7 @@ const Contact = () => {
 
               border: "none",
               borderRadius: "8px",
-              fontSize: "16px",
+              fontSize: "12px",
               fontWeight: "bold",
               cursor: "pointer",
               textDecoration: "none",

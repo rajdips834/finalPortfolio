@@ -4,12 +4,17 @@ import expenseCalc from "../assets/expenseCalc.png";
 import foodApp from "../assets/foodApp.png";
 import conversicats from "../assets/Conversicats.png";
 import myShell from "../assets/myShell.png";
-
+import vidhi from "../assets/vidhi.png";
+import layeredBackend from "../assets/layeredBackend.png";
+import Rag from "../assets/RAG.png";
 const imageMap = {
   ExpenseCalc: expenseCalc,
   Foodify: foodApp,
   Conversicats: conversicats,
   "Rajdip's Shell": myShell,
+  "Vidhi.Ai": vidhi,
+  "🛠️ How to Build a Simple Backend (The Layered Way)": layeredBackend,
+  "RAG optimization: Why and How i built Vidhi.Ai": Rag,
 };
 
 const ProjectCard = ({ title, description, stacks, source_link }) => {
