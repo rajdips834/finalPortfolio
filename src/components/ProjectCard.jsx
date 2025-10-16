@@ -7,6 +7,8 @@ import myShell from "../assets/myShell.png";
 import vidhi from "../assets/vidhi.png";
 import layeredBackend from "../assets/layeredBackend.png";
 import Rag from "../assets/RAG.png";
+import ssh from "../assets/ssh.png"
+import hardway from "../assets/hardway.png"
 const imageMap = {
   ExpenseCalc: expenseCalc,
   Foodify: foodApp,
@@ -15,6 +17,8 @@ const imageMap = {
   "Vidhi.Ai": vidhi,
   "🛠️ How to Build a Simple Backend (The Layered Way)": layeredBackend,
   "RAG optimization: Why and How i built Vidhi.Ai": Rag,
+  "SSH + Git: What, Why, How, and Where?":ssh,
+  "New Company Assignment and the Lessons I Learnt the Hard Way":hardway
 };
 
 const ProjectCard = ({ title, description, stacks, source_link }) => {
