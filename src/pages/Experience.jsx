@@ -7,6 +7,24 @@ const Experience = () => {
   useScrollFadeIn();
 
   const ExperienceData = [
+    
+    {
+      Company: "Idea Usher",
+      title: "SDE Intern",
+      description:
+        ""},
+      {
+      Company: "Dyyota",
+      title: "Full-Stack developer",
+        description: "Built an AI website generator"
+    },
+    
+    {
+      Company: "BlueBricks",
+      title: "FullStack Intern",
+      description:
+        "• Worked on multiple projects across various platforms.\n• Performed unit testing for multiple products to ensure reliability.\n• Reviewed software code to identify potential areas of improvement.\n• Collaborated with team members to troubleshoot and resolve software bugs.",
+    },
     {
       Company: "Renderbit",
       title: "SDE Intern",
@@ -14,12 +32,6 @@ const Experience = () => {
         "• Reviewed existing software code to identify potential issues or areas of improvement.\n• Worked closely with development team members to identify and remove software bugs.\n• Debugged and resolved software bugs, improving system performance and reliability.\n• Built visually rich front-end components.\n• Shadowed team engineers to learn new skills.",
     },
 
-    {
-      Company: "BlueBricks",
-      title: "FullStack Intern",
-      description:
-        "• Worked on multiple projects across various platforms.\n• Performed unit testing for multiple products to ensure reliability.\n• Reviewed software code to identify potential areas of improvement.\n• Collaborated with team members to troubleshoot and resolve software bugs.",
-    },
     {
       Company: "The Tech Ravens",
       title: "Angular Intern",
@@ -32,11 +44,6 @@ const Experience = () => {
       description:
         "• Built an extensive organisation in my college, with over 1000+ members.\n• Organised multiple events and workshops to help students learn new skills.\n• Collaborated with other organisations to host hackathons and coding competitions.",
     },
-    {
-      Company: "Dyyota",
-      title: "Full-Stack developer",
-        description: "Built an AI website generator"
-    }
   ];
 
   return (
